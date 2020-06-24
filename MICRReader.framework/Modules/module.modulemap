@@ -1,0 +1,11 @@
+framework module MICRReader {
+  umbrella header "MICRReader.h"
+
+  export *
+  module * { export * }
+}
+
+module MICRReader.Swift {
+    header "MICRReader-Swift.h"
+    requires objc
+}
